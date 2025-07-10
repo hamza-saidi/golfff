@@ -9,7 +9,8 @@
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
     "setup": "npm install && cd server && npm install && cd ../client && npm install",
-    "db:setup": "cd server && npm run db:setup"
+    "db:setup": "cd server && npm run db:setup",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
   },
   "keywords": ["contacts", "email-marketing", "crm", "nodejs", "react", "mysql"],
   "author": "Golf Club CRM",
